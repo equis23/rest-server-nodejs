@@ -1,0 +1,21 @@
+{
+  "name": "rest-server-nodejs",
+  "version": "1.0.0",
+  "description": "building a rest server with nodeJS and express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.index",
+    "start": "node src/app.index",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "equis23",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "nodemon": "^2.0.20"
+  }
+}
