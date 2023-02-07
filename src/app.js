@@ -1,8 +1,4 @@
-const express = require('express');
+const Server = require('./models/server');
 
-const app = express();
-
-app.listen(8080, (err) => {
-  if (err) return console.log(err);
-  console.log('server up and running at http://localhost:8080');
-})
+const server = new Server();
+server.listen();
