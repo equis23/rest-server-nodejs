@@ -2,7 +2,7 @@
 const path = require('path');
 const express = require('express');
 const cors = require('cors');
-const productsRouter = require('../routes/products.route');
+const productsRouter = require('../routes/products.router');
 
 class Server {
   constructor() {
